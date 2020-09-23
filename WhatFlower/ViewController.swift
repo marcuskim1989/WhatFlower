@@ -112,6 +112,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 
                 print(flowerDescription)
                 
+                self.label.textColor = .white
                 self.label.text = flowerDescription
                 
             case .failure:
